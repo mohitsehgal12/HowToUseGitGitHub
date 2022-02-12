@@ -5,7 +5,7 @@
 5. git add . //to add all files in staging area
 6. git commmit -m "Initial Commit" //to commit all files
 7. git status //Just to see working tree is clean or not
-8. $ ssh-keygen -t ed25519 -C "your_email@example.com"
+8. $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 9. cat <path to id_rsa.pub> //add this SSH key to your github account
 10. git remote add origin <project ssh url.git>
 11. git push origin master
